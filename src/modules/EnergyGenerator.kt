@@ -1,4 +1,7 @@
-import kotlin.collections.plusAssign
+package modules
+
+import resources.OutpostResource
+import resources.ResourceManager
 
 class EnergyGenerator : OutpostModule("Генератор энергии") {
     override fun performAction(manager: ResourceManager) {
